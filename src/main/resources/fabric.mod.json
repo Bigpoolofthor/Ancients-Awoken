@@ -1,3 +1,4 @@
+
 {
 	"schemaVersion": 1,
 	"id": "awoken",
@@ -8,8 +9,7 @@
 		"NinTenno"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Bigpoolofthor/Ancients-Awoken"
 	},
 	"license": "MIT",
 	"icon": "assets/awoken/icon.png",
