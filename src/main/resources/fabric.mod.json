@@ -3,20 +3,23 @@
 	"id": "awoken",
 	"version": "${version}",
 	"name": "Ancients Awoken",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a mod that adds stuff.",
 	"authors": [
-		"Me!"
+		"NinTenno"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/awoken/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.nintenno.awoken.AncientsAwoken"
+		],
+		"client": [
+			"net.nintenno.awoken.AncientsAwokenClient"
 		],
 		"fabric-datagen": [
 			"net.nintenno.awoken.AncientsAwokenDataGenerator"
